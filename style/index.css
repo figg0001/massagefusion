@@ -1,7 +1,23 @@
-main {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
-}
 main img {
     max-width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.1fr;
+}
+
+.grid_2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid_4 {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+}
+
+.grid_5 {
+    background-color: #E2E0D9;
 }
