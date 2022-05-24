@@ -1,4 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #6C7957;
+  font-family: 'Merriweather', serif;
+}
+
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 12%;
+}
+
+.logo-s {
+  cursor: pointer;
+  width: 3%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #a5ad96;
+}
+
+
+
+
+
+/*header {
   position: sticky;
   top: 0;
   gap: 20px;
