@@ -1,35 +1,168 @@
+/* ----------------------------- Generelt ------------------------------- */
 main img {
     max-width: 100%;
 }
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 0.1fr;
+    grid-template-rows: 0.8fr 1fr 1fr 1fr 0.1fr;
 }
 
+
+
+/* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
    background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
 }
 
+
+.velkommen_tekst {
+    text-align-last: right;
+padding-right: 10%;
+padding-top: 10%;
+
+}
+
+.grid_1 h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 270%;
+    color: #6C7957;
+}
+
+.grid_1 p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 100%;
+    padding-bottom: 4%;
+    color: #9B9F7E;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    padding-block: 0.5rem;
+    padding-inline: 2rem;
+    letter-spacing: 3px;
+    background-color: #C7BFA6;
+    color: white;
+  }
+
+/* ----------------------------- GRID 2 ------------------------------- */
 .grid_2 {
     margin-inline: 5%;
 }
+
+.grid_2 h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    color: #6C7957; 
+    letter-spacing: 5px;
+}
+.grid_2 h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 90%;
+     color: #393F2C;
+    letter-spacing: 3px;
+    margin-bottom: -1%;
+}
+
+.grid_2 p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 70%;
+    font-style: italic;
+    padding-bottom: 4%;
+    color: #6C7957;
+}
+
 
 .grid_2-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
+.grid_2-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2%;
+    gap: 10px;
+}
+
+
+/* ----------------------------- GRID 3 ------------------------------- */
 .grid_3 {
     margin-inline: 5%;
 }
+.grid_3 p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 70%;
+    color: #393F2C;
+    letter-spacing: 1px;
+    margin-bottom: 10%;
+    text-align: center;
+   
 
+}
+
+
+/* ----------------------------- GRID 4 ------------------------------- */
 .grid_4 {
     display: grid;
     grid-template-columns: 2fr 1fr ;
     margin-inline: 5%;
 }
 
+.omjohn_tekst {
+    margin-top: 15%;
+}
+.grid_4 small {
+    font-family: 'Merriweather', serif;
+    font-size: 50%;
+    color: #9B9F7E;
+    
+}
+
+.grid_4 h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 170%;
+    color: #393F2C;
+    margin-right: 45%;
+    font-style: italic;
+}
+
+.grid_4 p {
+    font-family: 'Work Sans', sans-serif;
+ font-size: 70%;
+ margin-right: 20%;
+ color: #6C7957;
+ margin-bottom: 7%;
+}
+
+/* ----------------------------- GRID 5 ------------------------------- */
 .grid_5 {
     background-color: #E2E0D9;
+    text-align: center;
+
+}
+
+.grid_5 h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 170%;
+    color: #393F2C; 
+}
+
+.grid_5 p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    color: #6C7957;
 }
