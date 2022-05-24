@@ -7,15 +7,27 @@ main {
     grid-template-rows: 1fr 1fr 1fr 1fr 0.1fr;
 }
 
+.grid_1 {
+   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
+}
+
+.grid_2 {
+    margin-inline: 5%;
+}
+
 .grid_2-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
+.grid_3 {
+    margin-inline: 5%;
+}
 
 .grid_4 {
     display: grid;
     grid-template-columns: 2fr 1fr ;
+    margin-inline: 5%;
 }
 
 .grid_5 {
