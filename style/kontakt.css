@@ -1,0 +1,61 @@
+main {
+margin-left: 10px;
+}
+
+h1 {
+  font-size: 270%;
+  color: #6c7957;
+  letter-spacing: 5px;
+  font-family: 'Work Sans', sans-serif;
+font-weight: 600;
+}
+
+h3 {
+    font-size: 150%;
+    color: #6c7957;
+    
+    font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #6c7957;
+  font-family: "Merriweather", serif;
+  font-size: 120%;
+}
+
+.grid1 {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+.grid1_1 {
+  
+}
+
+.con_text {
+    display: flex;
+    
+    position: relative;
+    
+    gap: 55px;
+    margin: 12px 20px 18px 0;
+}
+
+.con_text img {
+  height: 100%;
+  max-width: 25px;
+  margin: 0;
+}
+
+.con {
+  height: 50vh;
+  image
+}
+
+.con_1 {
+    
+}
