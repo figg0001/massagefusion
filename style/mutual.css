@@ -6,10 +6,13 @@
 
 li,
 a {
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 500;
   text-decoration: none;
   color: #6C7957;
-  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+
 }
 
 header {
