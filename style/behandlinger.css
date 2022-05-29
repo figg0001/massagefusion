@@ -1,25 +1,63 @@
-.grid_2-1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  background-color: #e2e0d9;
-  margin-bottom: 30px;
-}
+@media (min-width: 600px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #e2e0d9;
+    margin-bottom: 30px;
+  }
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 30px;
+  }
+  .grid_2-1 h2 {
+    margin-left: 32px;
+    margin-inline: 7%;
+  }
 
-.grid_2-1 h2 {
-  margin-left: 32px;
-  margin-inline: 7%;
-}
+  .grid_2-1 p {
+    margin-left: 32px;
+    margin-inline: 7%;
+    max-width: 800px;
+  }
 
-.grid_2-1 p {
-  margin-left: 32px;
-  margin-inline: 7%;
-  max-width: 800px;
-}
+  .grid_2-1 button {
+    margin-left: 32px;
+    margin-inline: 7%;
+    margin-bottom: 40px;
+  }
+  .order {
+    order: -1;
+  }
+  .grid_1-2 p {
+    max-width: 800px;
+  }
 
-.grid_2-1 button {
-  margin-left: 32px;
-  margin-inline: 7%;
-  margin-bottom: 40px;
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+
+  .grid_1-1 h3 {
+    margin-left: 67px;
+  }
+
+  .grid_1-1 p {
+    margin-left: 67px;
+    max-width: 550px;
+  }
+
+  .grid_1-1 button {
+    margin-left: 67px;
+    margin-bottom: 40px;
+  }
+  .grid_5 {
+    display: grid;
+    grid-template-rows: 0.1fr;
+    background-color: #e2e0d9;
+    text-align: center;
+  }
 }
 
 figure img {
@@ -41,36 +79,6 @@ figcaption {
   color: #9b9f7e;
   margin-inline: 7%;
   margin-top: 10px;
-}
-
-.grid_1-2 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-bottom: 30px;
-}
-
-.grid_1-2 p {
-  max-width: 800px;
-}
-
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 70px;
-}
-
-.grid_1-1 h3 {
-  margin-left: 67px;
-}
-
-.grid_1-1 p {
-  margin-left: 67px;
-  max-width: 550px;
-}
-
-.grid_1-1 button {
-  margin-left: 67px;
-  margin-bottom: 40px;
 }
 
 .obs {
@@ -152,18 +160,12 @@ main {
   font-family: "Merriweather", serif;
   font-weight: 300;
   color: #9b9f7e;
+  text-transform: none;
 }
 
 .kundeliste {
   margin-bottom: 30px;
   margin-left: 35px;
-}
-
-.grid_5 {
-  display: grid;
-  grid-template-rows: 0.1fr;
-  background-color: #e2e0d9;
-  text-align: center;
 }
 
 .bronze {
@@ -183,4 +185,14 @@ main {
   margin-bottom: 2%;
   padding: 0;
   line-height: 0%;
+}
+
+.dbf {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.dbf img {
+  width: 20%;
 }
