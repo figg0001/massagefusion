@@ -1087,6 +1087,23 @@ margin-top: 2%;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 0px) and (max-width: 320px) {
 
 
@@ -1099,7 +1116,7 @@ main img {
 main {
     display: grid;
     grid-template-rows: 0.7fr 1fr 0.55fr 0.4fr 0.05fr;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 
 
