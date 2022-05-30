@@ -169,8 +169,9 @@ button {
 
 h1 {
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 270%;
+  letter-spacing: 5px;
   color: #6c7957;
   margin-top: 50px;
   margin-left: 60px;
