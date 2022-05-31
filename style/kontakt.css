@@ -68,7 +68,7 @@ p {
 }
 
 .con_1 img {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -174,6 +174,10 @@ textarea {
   margin-top: 1%;
 }
 
+.grid2 {
+  margin-bottom: 5%;
+}
+
 .grid2 h2 {
   margin-bottom: 3%;
   margin-top: 3%;
@@ -192,7 +196,7 @@ textarea {
 }
 
 .box p {
-  font-size: 120%;
+  font-size: 110%;
   color: #6f785a;
   font-family: "Merriweather", serif;
   font-style: italic;
@@ -212,6 +216,16 @@ textarea {
   font-style: italic;
 }
 
+@media only screen and (min-width: 520px) {
+  .box {
+    width: 65%;
+  }
+
+  .grid2 {
+    margin-inline: 7%;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .grid2 {
     margin-inline: 7%;
@@ -228,8 +242,8 @@ textarea {
   }
 
   .box {
-    margin-bottom: 6%;
-    width: 91%;
+    width: 71%;
+    height: auto;
   }
 
   .box p {
@@ -237,11 +251,98 @@ textarea {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 940px) {
   .grid2_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
     gap: 1%;
+  }
+
+  .box {
+    height: 100%;
+    width: 95%;
+  }
+}
+
+footer {
+  margin-inline: 7%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-top: 1px solid black;
+  padding-top: 2%;
+}
+
+.col_text {
+  margin-bottom: 3%;
+}
+
+.col_text p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  color: black;
+  margin-bottom: 1%;
+}
+
+.f_icon_grid {
+  max-width: 60px;
+  margin: auto;
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 145%;
+  margin-bottom: 1%;
+}
+
+h5 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 110%;
+  margin-bottom: 1%;
+}
+
+@media (min-width: 643px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-inline: 7%;
+    margin-bottom: 2%;
+  }
+
+  .f_grid_1 .col {
+    width: max-content;
+  }
+
+  .f_grid_1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+  }
+
+  .f_icon_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60px;
+    margin: auto;
+  }
+
+  h4 {
+    margin-bottom: 4%;
+    font-size: 125%;
+  }
+
+  h5 {
+    font-size: 90%;
+  }
+
+  .col_text {
+    margin-bottom: 5%;
+  }
+
+  .col_text p {
+    font-size: 80%;
   }
 }

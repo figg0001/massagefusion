@@ -12,7 +12,7 @@ main img {
 
 main {
     display: grid;
-    grid-template-rows: 0.8fr 1fr 1fr 0.96fr 0.1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.96fr 0.1fr;
     /* background-color: red; */
 
 }
@@ -21,7 +21,8 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
+   background-image: url("/foto/klinik(2 of 5).jpg");
+   background-size: cover;
 }
 
 
@@ -36,7 +37,7 @@ padding-top: 10%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 270%;
-    color: #6C7957;
+    color: #4b5535; 
 }
 
 .grid_1 p {
@@ -44,7 +45,7 @@ padding-top: 10%;
     font-weight: 300;
     font-size: 100%;
     padding-bottom: 4%;
-    color: #9B9F7E;
+    color: #74785b;
 }
 
 button {
@@ -151,7 +152,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 170%;
-    color: #393F2C;
+    color: #4b5535; 
     margin-right: 45%;
     margin-top: 1%;
     font-style: italic;
@@ -228,8 +229,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
-}
+    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-size: cover;
+ }
 
 
 .velkommen_tekst {
@@ -243,7 +245,7 @@ padding-top: 10%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 270%;
-    color: #6C7957;
+    color: #4b5535; 
 }
 
 .grid_1 p {
@@ -251,7 +253,8 @@ padding-top: 10%;
     font-weight: 300;
     font-size: 100%;
     padding-bottom: 4%;
-    color: #9B9F7E;
+    
+    color: #74785b;
 }
 
 button {
@@ -364,7 +367,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 150%;
-    color: #393F2C;
+    color: #4b5535; 
     margin-right: 40%;
     margin-top: 1%;
     font-style: italic;
@@ -450,8 +453,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
-}
+    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-size: cover;
+ }
 
 
 .velkommen_tekst {
@@ -465,7 +469,7 @@ padding-top: 10%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 230%;
-    color: #6C7957;
+    color: #4b5535; 
 }
 
 .grid_1 p {
@@ -473,7 +477,7 @@ padding-top: 10%;
     font-weight: 300;
     font-size: 80%;
     padding-bottom: 4%;
-    color: #9B9F7E;
+    color: #74785b;
 }
 
 button {
@@ -589,7 +593,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 110%;
-    color: #393F2C;
+    color: #4b5535; 
     margin-right: 40%;
     margin-top: 1%;
     font-style: italic;
@@ -672,8 +676,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
-}
+    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-size: cover;
+ }
 
 
 .velkommen_tekst {
@@ -687,7 +692,7 @@ padding-top: 10%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 190%;
-    color: #6C7957;
+    color: #4b5535; 
 }
 
 .grid_1 p {
@@ -695,7 +700,7 @@ padding-top: 10%;
     font-weight: 300;
     font-size: 65%;
     padding-bottom: 4%;
-    color: #9B9F7E;
+    color: #74785b;
 }
 
 button {
@@ -811,7 +816,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 90%;
-    color: #393F2C;
+    color: #4b5535; 
     margin-right: 40%;
     margin-top: 1%;
     font-style: italic;
@@ -894,13 +899,18 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
-}
+    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-size: cover;
+ }
 
 
 .velkommen_tekst {
     text-align-last: center;
-padding-top: 28%;
+
+background-color: white;
+margin-top: 14%;
+padding-block: 12%;
+margin-inline: 8%;
 
 }
 
@@ -908,7 +918,7 @@ padding-top: 28%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 170%;
-    color: #6C7957;
+    color: #4b5535; 
 }
 
 .grid_1 p {
@@ -916,8 +926,9 @@ padding-top: 28%;
     font-weight: 300;
     font-size: 60%;
     padding-bottom: 8%;
-    color: #9B9F7E;
+    color: #74785b;
     padding-inline: 6%;
+    text-align: center;
 }
 
 button {
@@ -1037,7 +1048,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 70%;
-    color: #393F2C;
+    color: #4b5535; 
     margin-right: 30%;
     margin-top: 1%;
     font-style: italic;
@@ -1123,13 +1134,17 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/placeholder_forside/hero_placeholder.svg");
-}
+    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-size: cover;
+ }
 
 
 .velkommen_tekst {
     text-align-last: center;
-padding-top: 28%;
+background-color: white;
+margin-top: 14%;
+padding-block: 12%;
+margin-inline: 8%;
 
 }
 
@@ -1137,7 +1152,7 @@ padding-top: 28%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 160%;
-    color: #6C7957;
+    color: #4b5535; 
 }
 
 .grid_1 p {
@@ -1145,8 +1160,9 @@ padding-top: 28%;
     font-weight: 300;
     font-size: 60%;
     padding-bottom: 8%;
-    color: #9B9F7E;
+    color: #74785b;
     padding-inline: 6%;
+    text-align: center;
 }
 
 button {
@@ -1266,7 +1282,7 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 45%;
-    color: #393F2C;
+    color: #4b5535; 
     margin-right: 30%;
     margin-top: 1%;
     font-style: italic;
@@ -1299,14 +1315,14 @@ margin-top: 2%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 80%;
-    color: #393F2C; 
+    color: #4b5535; 
 }
 
 .grid_5 p {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 50%;
-    color: #6C7957;
+    color: #393F2C; 
     margin-bottom: 2%;
 
 }
