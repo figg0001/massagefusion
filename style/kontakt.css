@@ -143,6 +143,7 @@ form {
   border-radius: 8px;
   display: grid;
   width: 100%;
+  margin-top: 5%;
 }
 
 button {
@@ -267,9 +268,12 @@ textarea {
 footer {
   margin-inline: 7%;
   margin-bottom: 2%;
-  text-align: center;
   border-top: 1px solid black;
   padding-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  text-align: center;
 }
 
 .col_text {
@@ -304,13 +308,14 @@ h5 {
   margin-bottom: 1%;
 }
 
-@media (min-width: 643px) {
+@media (min-width: 700px) {
   footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-inline: 7%;
     margin-bottom: 2%;
+    text-align: left;
   }
 
   .f_grid_1 .col {
@@ -320,6 +325,7 @@ h5 {
   .f_grid_1 {
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
+    gap: 10%;
   }
 
   .f_icon_grid {
