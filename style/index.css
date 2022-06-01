@@ -12,7 +12,7 @@ main img {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 0.96fr 0.1fr;
+    grid-template-rows: 0.75fr 0.8fr 1fr 0.85fr 0.1fr;
     /* background-color: red; */
 
 }
@@ -21,8 +21,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/klinik(2 of 5).jpg");
-   background-size: cover;
+    background-image:url('../foto/klinik_final.jpg');
+    background-size: cover;
+   
 }
 
 
@@ -191,6 +192,11 @@ margin-top: 2%;
 
 }
 
+
+.forside_footer {
+    border-top: none;
+}
+
 }
 
 
@@ -229,8 +235,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -410,6 +417,9 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -453,8 +463,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -636,6 +647,9 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -676,8 +690,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -860,6 +875,9 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -899,8 +917,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -1093,7 +1112,9 @@ margin-top: 2%;
 
 }
 
-
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -1134,8 +1155,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -1327,5 +1349,8 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
