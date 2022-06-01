@@ -12,7 +12,7 @@ main img {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 0.96fr 0.1fr;
+    grid-template-rows: 0.75fr 0.8fr 1fr 0.85fr 0.1fr;
     /* background-color: red; */
 
 }
