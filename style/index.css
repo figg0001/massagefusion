@@ -191,6 +191,11 @@ margin-top: 2%;
 
 }
 
+
+.forside_footer {
+    border-top: none;
+}
+
 }
 
 
@@ -410,6 +415,9 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -636,6 +644,9 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -860,6 +871,9 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -1093,7 +1107,9 @@ margin-top: 2%;
 
 }
 
-
+.forside_footer {
+    border-top: none;
+}
 
 }
 
@@ -1327,5 +1343,8 @@ margin-top: 2%;
 
 }
 
+.forside_footer {
+    border-top: none;
+}
 
 }

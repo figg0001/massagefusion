@@ -47,7 +47,7 @@ a {
 
 }
 .logo {
-  width: 95px
+  width: 115px
 }
 
 /* burgermenu */
@@ -81,7 +81,8 @@ a {
   }
 
   .main-menu.shown .nav-links {
-    border-top: 1px solid #000;
+    border-top: 1.5px solid #57643a;
+margin-top: 5%;
     padding-top: 1rem;
     display: flex;
     flex: 1 1 100%;
@@ -93,7 +94,7 @@ a {
 footer {
   margin-inline: 7%;
   margin-bottom: 2%;
-  border-top: 1px solid black;
+  border-top: 1px solid #57643a;
   padding-top: 2%;
   display: grid;
   grid-template-columns: 1fr;
@@ -109,7 +110,7 @@ footer {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 100%;
-  color: black;
+  color: #74785b;
   margin-bottom: 1%;
 }
 
@@ -121,7 +122,7 @@ footer {
 h4 {
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
-  color: black;
+  color: #4b5535; 
   font-size: 145%;
   margin-bottom: 1%;
 }
@@ -129,8 +130,9 @@ h4 {
 h5 {
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
-  font-size: 110%;
+  font-size: 100%;
   margin-bottom: 1%;
+  color: #57643a;
 }
 
 @media (min-width: 700px) {
