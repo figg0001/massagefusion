@@ -21,8 +21,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-   background-image: url("/foto/klinik(2 of 5).jpg");
-   background-size: cover;
+    background-image:url('../foto/klinik_final.jpg');
+    background-size: cover;
+   
 }
 
 
@@ -234,8 +235,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -461,8 +463,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -687,8 +690,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -913,8 +917,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
@@ -1150,8 +1155,9 @@ main {
 
 /* ----------------------------- GRID 1 ------------------------------- */
 .grid_1 {
-    background-image: url("/foto/klinik(2 of 5).jpg");
+    background-image:url('../foto/klinik_final.jpg');
     background-size: cover;
+    background-color: #C7BFA6;
  }
 
 
