@@ -16,7 +16,7 @@
 @media (min-width: 600px) {
   .box_1 {
     display: grid;
-    grid-template-rows: 1fr 0.2fr;
+    grid-template-rows: 300px 2px;
     background-color: #e2e0d9;
   }
   .grid_2 {
@@ -33,9 +33,9 @@
   .title h1 {
     font-size: 2.5rem;
     line-height: 1.1;
-    color: #6f785a;
+    color: #4b5535;
     font-family: "Work Sans", sans-serif;
-    margin-top: -23%;
+    margin-top: -21%;
     margin-left: 38%;
   }
   .box_1 p {
@@ -46,7 +46,7 @@
     line-height: 140%;
     margin-left: 25%;
     font-weight: 300;
-    margin-top: 19%;
+    margin-top: 4%;
   }
 }
 
@@ -161,7 +161,7 @@ main {
   line-height: 140%;
   margin-left: 25%;
   font-weight: 300;
-  margin-top: 19%;
+  margin-top: 4%;
 }
 .box_1 button {
   font-family: "Work Sans", sans-serif;
@@ -183,5 +183,8 @@ main {
   color: #6c7957;
   margin-left: 1%;
   margin-bottom: 5%;
-  padding-top: 4%;
+  padding-top: 6%;
+}
+.knap {
+  margin-top: -4%;
 }
