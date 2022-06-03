@@ -38,7 +38,7 @@ p {
 }
 
 .start {
-  background-image: url(/foto/om.jpg);
+  background-image: url(../foto/om.jpg);
   background-size: cover;
   padding: 16%;
 }
